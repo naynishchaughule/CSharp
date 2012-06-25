@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\InheritanceAndPolymorphism\InheritanceAndPolymorphism\bin\Debug\InheritanceAndPolymorphism.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\InheritanceAndPolymorphism\InheritanceAndPolymorphism\bin\Debug\InheritanceAndPolymorphism.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\InheritanceAndPolymorphism\InheritanceAndPolymorphism\obj\x86\Debug\InheritanceAndPolymorphism.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\InheritanceAndPolymorphism\InheritanceAndPolymorphism\obj\x86\Debug\InheritanceAndPolymorphism.pdb

@@ -1,0 +1,150 @@
+﻿.NET applications are constructed by piecing together any number of assemblies.
+assembly is a versioned, self-describing binary file hosted by the CLR.
+
+.NET assemblies are assigned a four-part numerical version number of the form
+<major>.<minor>.<build>.<revision>. (If you do not explicitly provide a version number, the assembly is
+automatically assigned a version of 1.0.0.0, given the default Visual Studio project settings.) This
+number, in conjunction with an optional public key value, allows multiple versions of the same assembly
+to coexist in harmony on a single machine.
+Formally speaking, assemblies that provide public key information are termed strongly named.
+by using a strong name, the CLR is able to ensure that the correct version of an assembly is 
+loaded on behalf of the calling client.
+
+Assemblies are regarded as self-describing in part because they record every external assembly they must
+have access to in order to function correctly. Thus, if your assembly requires System.Windows.Forms.dll
+and System.Drawing.dll, this will be documented in the assembly’s manifest.
+
+Assemblies can be deployed as “private” or “shared.” Private assemblies reside in the same directory (or
+possibly a subdirectory) as the client application that uses them. Shared assemblies, on the other hand,
+are libraries intended to be consumed by numerous applications on a single machine and are deployed
+to a specific directory termed the global assembly cache, or GAC.
+
+Structurally speaking, a .NET assembly
+(*.dll or *.exe) consists of the following elements:
+• A Windows file header
+• A CLR file header
+• CIL code
+• Type metadata
+• An assembly manifest
+• Optional embedded resources
+
+The Windows File Header
+The Windows file header establishes the fact that the assembly can be loaded and manipulated by the
+Windows family of operating systems. This header data also identifies the kind of application (consolebased,
+GUI-based, or *.dll code library) to be hosted by Windows. If you open a .NET assembly using
+the dumpbin.exe utility (via a Visual Studio 2010 command prompt) and specify the /headers flag as so:
+dumpbin /headers CarLibrary.dll
+
+The CLR header is a block of data that all .NET assemblies must support (and do support, courtesy of the
+C# compiler) in order to be hosted by the CLR. In a nutshell, this header defines numerous flags that
+enable the runtime to understand the layout of the managed file. For example, flags exist that identify
+the location of the metadata and resources within the file, the version of the runtime the assembly was
+built against, the value of the (optional) public key, and so forth. If you supply the /clrheader flag to
+dumpbin.exe like so:
+dumpbin /clrheader CarLibrary.dll
+
+.NET platform supports satellite assemblies that
+contain nothing but localized resources. This can be useful if you wish to partition your resources based
+on a specific culture (English, German, etc.) for the purposes of building international software.
+
+Technically speaking, an assembly can be composed of multiple modules. A module is really nothing
+more than a general term for a valid .NET binary file. In most situations, an assembly is in fact composed
+of a single module. In this case, there is a one-to-one correspondence between the (logical) assembly
+and the underlying (physical) binary (hence the term single-file assembly).
+
+A multifile assembly, on the other hand, is a set of .NET modules that are deployed and versioned as
+a single logical unit. Formally speaking, one of these modules is termed the primary module and
+contains the assembly-level manifest (as well as any necessary CIL code, metadata, header information,
+and optional resources). The manifest of the primary module records each of the related module files it
+is dependent upon.
+As a naming convention, the secondary modules in a multifile assembly take a *.netmodule file
+extension; however, this is not a requirement of the CLR. Secondary *.netmodules also contain CIL code
+and type metadata, as well as a module-level manifest, which simply records the externally required
+assemblies of that specific module.
+
+As explained later in this chapter, CarLibrary.dll has been configured as a “private” assembly
+(which is the automatic behavior for all Visual Studio 2010 Class Library projects). When you reference
+private assemblies in new applications, the IDE responds by placing a
+copy of the library in the client application’s output directory.
+
+multi-file assemblies
+
+compiling modules 
+csc /target:module Mango.cs
+
+compiling primary module 
+csc /target:library /addmodule:Mango.netmodule /out:Fruit.dll Grapes.cs
+
+Notice that when you are referencing a multifile assembly, the compiler needs to be supplied only
+with the name of the primary module (the *.netmodules are loaded on demand by the CLR when used by
+the client’s code base). In and of themselves, *.netmodules do not have an individual version number
+and can’t be directly loaded by the CLR. Individual *.netmodules can be loaded only by the primary
+module (e.g., the file that contains the assembly manifest).
+
+Probing is the process of mapping an external assembly request to the
+location of the requested binary file. Strictly speaking, a request to load an assembly may be either
+implicit or explicit. An implicit load request occurs when the CLR consults the manifest in order to
+resolve the location of an assembly defined using the .assembly extern tokens:
+// An implicit load request.
+.assembly extern CarLibrary
+{ ... }
+An explicit load request occurs programmatically using the Load() or LoadFrom() method of the
+System.Reflection.Assembly class type, typically for the purposes of late binding and dynamic
+invocation of type members.
+// An explicit load request based on a friendly name.
+Assembly asm = Assembly.Load("CarLibrary");
+In either case, the CLR extracts the friendly name of the assembly and begins probing the client’s
+application directory for a file named CarLibrary.dll. If this file cannot be located, an attempt is made
+to locate an executable assembly based on the same friendly name (for example, CarLibrary.exe). If
+neither file can be located in the application directory, the runtime gives up and throws a
+FileNotFoundException exception at runtime.
+
+Technically speaking, if a copy of the requested assembly cannot be found within the client’s application
+directory, the CLR will also attempt to locate a client subdirectory with the exact same name as the assembly’s
+friendly name (e.g., C:\MyClient\CarLibrary). If the requested assembly resides within this subdirectory, the CLR
+will load the assembly into memory.
+
+Configuration files must have the same name as the launching application and take a *.config file extension, and 
+they must be deployed in the client’s application directory.
+
+Formally, a strong name is composed of a set of related data, much of which is specified using
+assembly-level attributes:
+• The friendly name of the assembly (which, you recall, is the name of the assembly
+minus the file extension)
+• The version number of the assembly (assigned using the [AssemblyVersion]
+attribute)
+• The public key value (assigned using the [AssemblyKeyFile] attribute)
+• An optional culture identity value for localization purposes (assigned using the
+[AssemblyCulture] attribute)
+• An embedded digital signature created using a hash of the assembly’s contents
+and the private key value
+
+To provide a strong name for an assembly, your first step is to generate public/private key data
+using the .NET Framework 4.0 SDK’s sn.exe utility
+The sn.exe utility
+generates a file (typically ending with the *.snk [Strong Name Key] file extension) that contains data for
+two distinct but mathematically related keys, the public key and the private key. Once the C# compiler is
+made aware of the location of your *.snk file, it will record the full public key value in the assembly
+manifest using the .publickey token at the time of compilation.
+The C# compiler will also generate a hash code based on the contents of the entire assembly (CIL
+code, metadata, and so forth). As you recall from Chapter 6, a hash code is a numerical value that is
+statistically unique for a fixed input. Thus, if you modify any aspect of a .NET assembly (even a single
+character in a string literal) the compiler yields a different hash code. This hash code is combined with
+the private key data within the *.snk file to yield a digital signature embedded within the assembly’s CLR
+header data.
+
+gacutil.exe
+
+Publisher policy assemblies are created at the command line using a .NET utility named al.exe (the
+assembly linker). Though this tool provides many options, building a publisher policy assembly requires
+passing in only the following input parameters:
+• The location of the *.config or *.xml file containing the redirecting instructions
+• The name of the resulting publisher policy assembly
+• The location of the *.snk file used to sign the publisher policy assembly
+• The version numbers to assign the publisher policy assembly being constructed
+
+Publisher policy allows the publisher of a given assembly to ship a binary version of a *.config file that is installed into the GAC along with the
+newest version of the associated assembly. The benefit of this approach is that client application
+directories do not need to contain specific *.config files.
+Rather, the CLR will read the current manifest and attempt to find the requested version in the GAC. However, if the CLR finds a publisher policy assembly,
+it will read the embedded XML data and perform the requested redirection at the level of the GAC.

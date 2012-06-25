@@ -1,0 +1,38 @@
+﻿IEnumerable<T> --> IEnumerable
+System.Linq.Enumerable (extension methods) for types that implement IEnumerable<T>
+
+
+many LINQ queries will return a sequence of data types which are not known until compile
+time. Given that the underlying data type is not known until the application is compiled, you obviously
+can’t declare a variable explicitly!
+
+While System.Array does not directly implement the IEnumerable<T> interface, it indirectly gains the
+required functionality of this type (as well as many other LINQ-centric members) via the static
+System.Linq.Enumerable class type.
+
+This utility class defines a good number of generic extension methods (such as Aggregate<T>(),
+First<T>(), Max<T>(), etc.), which System.Array (and other types) acquire in the background.
+
+The System.Array type has been extended with members of System.Linq.Enumerable
+
+deferred execution. The benefit of this approach is that you are able to apply the same LINQ query 
+multiple times to the same container, and rest assured you are obtaining the latest and greatest results.
+
+The usefulness of immediate execution is very obvious when you need to return the results of a LINQ
+query to an external caller.
+LINQ expression is wrapped within parentheses to cast it into the correct
+underlying type (whatever that may be) in order to call the extension methods of Enumerable.
+
+var keyword cannot be used for fields
+
+LINQ queries are defined within the scope of a method or property. Moreover,
+to simplify your programming, the variable used to hold the result set will be stored in an implicitly
+typed local variable using the var keyword.
+
+LINQ query expressions can be used to iterate over data containers that implement the generic IEnumerable<T> interface.
+
+Recall that the query operators of LINQ are designed to work with any type implementing
+IEnumerable<T> (either directly or via extension methods). Given that System.Array has been provided
+with such necessary infrastructure, it may surprise you that the legacy (nongeneric) containers within
+System.Collections have not. Thankfully, it is still possible to iterate over data contained within
+nongeneric collections using the generic Enumerable.OfType<T>() extension method.

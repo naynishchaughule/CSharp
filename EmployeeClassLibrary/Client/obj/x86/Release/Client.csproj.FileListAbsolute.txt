@@ -1,0 +1,5 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\EmployeeClassLibrary\Client\bin\Release\Client.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\EmployeeClassLibrary\Client\bin\Release\Client.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\EmployeeClassLibrary\Client\obj\x86\Release\Client.csprojResolveAssemblyReference.cache
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\EmployeeClassLibrary\Client\obj\x86\Release\Client.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\EmployeeClassLibrary\Client\obj\x86\Release\Client.pdb

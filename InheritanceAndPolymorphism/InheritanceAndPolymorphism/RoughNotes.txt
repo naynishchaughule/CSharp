@@ -1,0 +1,6 @@
+﻿The benefit of defining protected members in a base class is that derived types no longer have to
+access the data indirectly using public methods or properties. The possible downfall, of course, is that
+when a derived type has direct access to its parent’s internal data, it is very possible to accidentally
+bypass existing business rules found within public properties. When you define protected members, you
+are creating a level of trust between the parent and child class, as the compiler will not catch any
+violation of your type’s business rules.

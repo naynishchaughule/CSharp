@@ -1,0 +1,94 @@
+﻿In C#, it is now possible to define extension methods. In a nutshell, extension methods allow
+existing compiled types (specifically, classes, structures, or interface implementations) as well as types
+currently being compiled (such as types in a project that contains extension methods) to gain new
+functionality without needing to directly update the type being extended.
+
+when you need to inject new functionality into types for which
+you do not have an existing code base. It can also be handy when you need to force a type to support a
+set of members (in the interest of polymorphism), but cannot modify the original type declaration.
+Using extension methods, you can add functionality to precompiled types while providing the illusion
+these methods were there all along.
+
+When you define extension methods, the first restriction is that they must be defined within a static
+class and therefore each extension method must be declared with the static keyword.
+The second point is that all extension methods are marked as such by using the this keyword as a
+modifier on the first (and only the first) parameter of the method in question. The third point is that
+every extension method can be called either from the correct instance in memory or statically via the
+defining static class.
+
+although it can appear on the surface that extension methods are global in nature, they are
+in fact limited to the namespaces that define them or the namespaces that import them.
+
+Microsoft recommends placing types that have extension methods in a dedicated assembly (within
+a dedicated namespace). The reason is simply to reduce cluttering of your programming environment.
+
+even if you do not have access to the original source code (or if the type is sealed), for the purposes of polymorphism
+
+Understanding Partial Methods
+C# recycles the role of the partial keyword in that it can now be applied on the method level. In a
+nutshell, this allows you to prototype a method in one file, yet implement it in another file.
+C# partial
+methods have a number of important restrictions:
+• Partial methods can only be defined within a partial class.
+• Partial methods must return void.
+• Partial methods can be static or instance level.
+• Partial methods can have arguments (including parameters modified by this, ref,
+or params—but not with the out modifier).
+• Partial methods are always implicitly private.
+Even stranger is the fact that a partial method may or may not be emitted into the compiled
+assembly
+
+Anonymous types
+As an OO programmer, you know the benefits of defining classes to represent the state and functionality
+of a given programming entity. To be sure, whenever you need to define a class that is intended to be
+reused across projects and provides numerous bits of functionality through a set of methods, events,
+properties, and custom constructors, creating a new C# class is common practice and often mandatory.
+However, there are other times when you would like to define a class simply to model a set of
+encapsulated (and somehow related) data points without any associated methods, events, or other
+custom functionality. Furthermore, what if this type is only to be used internally to your current
+application and it’s not intended to be reused? If you need such a “temporary” type, earlier versions of
+C# would require you to nevertheless build a new class definition by hand:
+
+This illustrates an important but subtle point: the compiler will only generate a new class definition
+when an anonymous type contains unique names of the anonymous type. Thus, if you declare identical
+anonymous types (again, meaning the same names) within the same assembly, the compiler generates
+only a single anonymous type definition.
+
+Anonymous Types Containing Anonymous Types
+• You don’t control the name of the anonymous type.
+• Anonymous types always extend System.Object.
+• The fields and properties of an anonymous type are always read-only.
+• Anonymous types cannot support events, custom methods, custom operators, or
+custom overrides.
+• Anonymous types are always implicitly sealed.
+• Anonymous types are always created using the default constructor.
+
+Lazy Instantiation
+
+When you are creating classes, you may occasionally need to account for a particular member variable in
+code, which may never actually be needed, in that the object user may not call the method (or property)
+that makes use of it. Fair enough. However, this can be very problematic if the member variable in
+question requires a large amount of memory to be instantiated.
+Lazy<>, defined in the System namespace of mscorlib.dll. This class allows you to define data that will
+not be created unless your code base actually makes use of it. As this is a generic class, you must specify
+the type of item to be created on first use, which can be any type with the .NET base class libraries or a
+custom type you have authored yourself. we must make use of the read-only Value property of the Lazy<> class to obtain the actual
+stored data. this new generic class allows you to ensure expensive objects are only allocated when the object user requires them
+
+
+Pointers
+Given that garbage collection can occur at any
+moment, imagine the problems encountered when accessing the members of Point at the very point in
+time such a sweep of the heap is under way. Theoretically, it is possible that the unsafe context is
+attempting to interact with a member that is no longer accessible or has been repositioned on the heap
+after surviving a generational sweep (which is an obvious problem).
+To lock a reference type variable in memory from an unsafe context, C# provides the fixed keyword.
+The fixed statement sets a pointer to a managed type and “pins” that variable during the execution of
+the code. Without fixed, pointers to managed variables would be of little use, since garbage collection
+could relocate the variables unpredictably. (In fact, the C# compiler will not allow you to set a pointer to
+a managed variable except in a fixed statement.)
+
+In a nutshell, the fixed keyword allows you to build a statement that locks a reference variable in
+memory, such that its address remains constant for the duration of the statement (or scope block). Any
+time you interact with a reference type from within the context of unsafe code, pinning the reference is a
+must.

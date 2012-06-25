@@ -1,0 +1,6 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DelegatesEventsAndLambdas\DelegatesEventsAndLambdas\bin\Debug\DelegatesEventsAndLambdas.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DelegatesEventsAndLambdas\DelegatesEventsAndLambdas\bin\Debug\DelegatesEventsAndLambdas.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DelegatesEventsAndLambdas\DelegatesEventsAndLambdas\obj\x86\Debug\DelegatesEventsAndLambdas.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DelegatesEventsAndLambdas\DelegatesEventsAndLambdas\obj\x86\Debug\DelegatesEventsAndLambdas.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DelegatesEventsAndLambdas\DelegatesEventsAndLambdas\obj\x86\Debug\DelegatesEventsAndLambdas.Form1.resources
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DelegatesEventsAndLambdas\DelegatesEventsAndLambdas\obj\x86\Debug\DelegatesEventsAndLambdas.csproj.GenerateResource.Cache

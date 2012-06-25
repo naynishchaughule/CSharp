@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DefiningEncapsulatedClassTypes\DefiningEncapsulatedClassTypes\bin\Debug\DefiningEncapsulatedClassTypes.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DefiningEncapsulatedClassTypes\DefiningEncapsulatedClassTypes\bin\Debug\DefiningEncapsulatedClassTypes.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DefiningEncapsulatedClassTypes\DefiningEncapsulatedClassTypes\obj\x86\Debug\DefiningEncapsulatedClassTypes.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DefiningEncapsulatedClassTypes\DefiningEncapsulatedClassTypes\obj\x86\Debug\DefiningEncapsulatedClassTypes.pdb

@@ -1,0 +1,5 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\UnderstandingObjectLifetime\UnderstandingObjectLifetime\bin\Debug\UnderstandingObjectLifetime.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\UnderstandingObjectLifetime\UnderstandingObjectLifetime\bin\Debug\UnderstandingObjectLifetime.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\UnderstandingObjectLifetime\UnderstandingObjectLifetime\obj\x86\Debug\UnderstandingObjectLifetime.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\UnderstandingObjectLifetime\UnderstandingObjectLifetime\obj\x86\Debug\UnderstandingObjectLifetime.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\UnderstandingObjectLifetime\UnderstandingObjectLifetime\obj\x86\Debug\UnderstandingObjectLifetime.csprojResolveAssemblyReference.cache

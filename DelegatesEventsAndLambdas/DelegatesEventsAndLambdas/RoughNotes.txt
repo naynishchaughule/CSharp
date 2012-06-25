@@ -1,0 +1,28 @@
+﻿When the compiler processes the event keyword, you are
+automatically provided with registration and unregistration methods as well as any necessary member
+variables for your delegate types. These delegate member variables are always declared private, and
+therefore they are not directly exposed from the object firing the event.
+
+Defining an event is a two-step process. First, you need to define a delegate type that will hold the
+list of methods to be called when the event is fired. Next, you declare an event (using the C# event
+keyword) in terms of the related delegate type.
+
+A C# event actually expands into two hidden methods, one having an add_ prefix, the other having a
+remove_ prefix. Each prefix is followed by the name of the C# event.
+
+• An anonymous method cannot access ref or out parameters of the defining method
+• An anonymous method cannot have a local variable with the same name as a local variable
+in the outer method
+• An anonymous method can access instance variables (or static variables, as appropriate) in
+the outer class scope
+• An anonymous method can declare local variables with the same name as outer class
+member variables (the local variables have a distinct scope and hide the outer class member
+variables)
+
+methods such as MyEventHandler() are seldom intended to be
+called by any part of the program other than the invoking delegate.
+it is possible to associate an event directly to a block of code statements at the
+time of event registration. Formally, such code is termed an anonymous method.
+
+Before I break this syntax down, first understand that lambda expressions can be used anywhere
+you would have used an anonymous method or a strongly typed delegate

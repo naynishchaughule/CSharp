@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DelegatesAndEventsBasics\DelegatesAndEventsBasics\bin\Debug\DelegatesAndEventsBasics.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DelegatesAndEventsBasics\DelegatesAndEventsBasics\bin\Debug\DelegatesAndEventsBasics.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DelegatesAndEventsBasics\DelegatesAndEventsBasics\obj\x86\Debug\DelegatesAndEventsBasics.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DelegatesAndEventsBasics\DelegatesAndEventsBasics\obj\x86\Debug\DelegatesAndEventsBasics.pdb

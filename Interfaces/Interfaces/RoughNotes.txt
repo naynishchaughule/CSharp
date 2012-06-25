@@ -1,0 +1,7 @@
+﻿An interface is nothing more than a named set of abstract members.
+An interface expresses a behavior that a given class or structure may choose to support.
+
+• You have a single hierarchy where only a subset of the derived types supports a
+common behavior.
+• You need to model a common behavior that is found across multiple hierarchies
+with no common parent class beyond System.Object.

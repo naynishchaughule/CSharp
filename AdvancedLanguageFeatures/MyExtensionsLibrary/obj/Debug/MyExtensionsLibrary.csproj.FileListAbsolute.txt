@@ -1,0 +1,5 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\AdvancedLanguageFeatures\MyExtensionsLibrary\bin\Debug\MyExtensionsLibrary.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\AdvancedLanguageFeatures\MyExtensionsLibrary\bin\Debug\MyExtensionsLibrary.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\AdvancedLanguageFeatures\MyExtensionsLibrary\obj\Debug\MyExtensionsLibrary.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\AdvancedLanguageFeatures\MyExtensionsLibrary\obj\Debug\MyExtensionsLibrary.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\AdvancedLanguageFeatures\MyExtensionsLibrary\obj\Debug\MyExtensionsLibrary.csprojResolveAssemblyReference.cache

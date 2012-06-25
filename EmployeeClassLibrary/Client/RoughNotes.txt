@@ -1,0 +1,7 @@
+﻿C:\PublisherAssembly>al /link:App.config 
+/out:policy.1.0.EmployeePublisher.dll /keyf:Key.snk /v:1.0.0.0
+
+The benefit of this approach is that client application
+directories do not need to contain specific *.config files. Rather, the CLR will read the current manifest
+and attempt to find the requested version in the GAC. However, if the CLR finds a publisher policy assembly,
+it will read the embedded XML data and perform the requested redirection at the level of the GAC.

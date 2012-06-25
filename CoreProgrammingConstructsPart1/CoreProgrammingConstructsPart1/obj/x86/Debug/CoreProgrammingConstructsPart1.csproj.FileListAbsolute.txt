@@ -1,0 +1,5 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CoreProgrammingConstructsPart1\CoreProgrammingConstructsPart1\bin\Debug\CoreProgrammingConstructsPart1.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CoreProgrammingConstructsPart1\CoreProgrammingConstructsPart1\bin\Debug\CoreProgrammingConstructsPart1.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CoreProgrammingConstructsPart1\CoreProgrammingConstructsPart1\obj\x86\Debug\CoreProgrammingConstructsPart1.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CoreProgrammingConstructsPart1\CoreProgrammingConstructsPart1\obj\x86\Debug\CoreProgrammingConstructsPart1.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CoreProgrammingConstructsPart1\CoreProgrammingConstructsPart1\bin\Debug\CoreProgrammingConstructsPart1.exe.config

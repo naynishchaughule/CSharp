@@ -1,0 +1,34 @@
+﻿Boxing can be formally defined as the process of explicitly assigning a value type to a System.Object
+variable. When you box a value, the CLR allocates a new object on the heap and copies the value type’s
+value (25, in this case) into that instance. What is returned to you is a reference to the newly allocated
+heap-based object.
+
+The opposite operation is also permitted through unboxing. Unboxing is the process of converting
+the value held in the object reference back into a corresponding value type on the stack. Syntactically
+speaking, an unboxing operation looks like a normal casting operation. However, the semantics are
+quite different. The CLR begins by verifying that the receiving data type is equivalent to the boxed type;
+and if so, it copies the value back into a local stack-based variable.
+
+Remember that unlike when performing a typical cast, you must unbox into an appropriate data
+type. If you attempt to unbox a piece of data into the incorrect variable, an InvalidCastException
+exception will be thrown. To be perfectly safe, you should wrap each unboxing operation in try/catch
+logic; however, this would be quite labor intensive to do for every unboxing operation.
+
+Type Parameters/Content Place Holders
+generic classes, interfaces, structures, and delegates
+When you create an instance of a generic class or structure, you specify the type parameter when you
+declare the variable and when you invoke the constructor.
+Formally speaking, you call these tokens type parameters; however, in more user friendly terms, you
+can simply call them placeholders. You can read the symbol <T> as of T. Thus, you can read
+IEnumerable<T> as IEnumerable of T; or, to say it another way, an enumeration of type T.
+
+Once you specify the type parameter of a generic item, it cannot be
+changed (remember: generics are all about type safety). When you specify a type parameter for a generic
+class or structure, all occurrences of the placeholder(s) are now replaced with your supplied value.
+
+It is fine for a non-generic class or structure to support a handful of generic members (e.g., methods and
+properties). In these cases, you would also need to specify the placeholder value at the time you invoke
+the method.
+
+When you create generic methods, it might come as a surprise to you that it causes a compiler error if
+you apply any C# operators (+, -, *, ==, etc.) on the type parameters.

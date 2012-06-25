@@ -1,0 +1,9 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ConfiguringAssemblies\bin\Debug\ConfiguringAssemblies.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ConfiguringAssemblies\bin\Debug\ConfiguringAssemblies.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ConfiguringAssemblies\obj\x86\Debug\ConfiguringAssemblies.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ConfiguringAssemblies\obj\x86\Debug\ConfiguringAssemblies.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ConfiguringAssemblies\obj\x86\Debug\ConfiguringAssemblies.csprojResolveAssemblyReference.cache
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ConfiguringAssemblies\bin\Debug\EmployeeInformation.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ConfiguringAssemblies\bin\Debug\EmployeeInformation.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ConfiguringAssemblies\bin\Debug\Fruit.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ConfiguringAssemblies\bin\Debug\Mango.netmodule

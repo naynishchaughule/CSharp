@@ -1,0 +1,9 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ShoppingCartClient\bin\Debug\ShoppingCartClient.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ShoppingCartClient\bin\Debug\ShoppingCartClient.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ShoppingCartClient\bin\Debug\ShoppingCart.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ShoppingCartClient\obj\x86\Debug\ShoppingCartClient.csprojResolveAssemblyReference.cache
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ShoppingCartClient\obj\x86\Debug\ShoppingCartClient.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ShoppingCartClient\obj\x86\Debug\ShoppingCartClient.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ShoppingCartClient\bin\Debug\Customer.netmodule
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ShoppingCartClient\bin\Debug\Product.netmodule
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\ShoppingCartClient\bin\Debug\ShoppingCartClient.exe.config

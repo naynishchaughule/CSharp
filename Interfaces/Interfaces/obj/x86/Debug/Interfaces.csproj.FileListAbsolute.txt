@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Interfaces\Interfaces\bin\Debug\Interfaces.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Interfaces\Interfaces\bin\Debug\Interfaces.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Interfaces\Interfaces\obj\x86\Debug\Interfaces.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Interfaces\Interfaces\obj\x86\Debug\Interfaces.pdb

@@ -1,0 +1,8 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\VisualBasicCrossLanguageProgramming\obj\Debug\VisualBasicCrossLanguageProgramming.Resources.resources
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\VisualBasicCrossLanguageProgramming\bin\Debug\VisualBasicCrossLanguageProgramming.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\VisualBasicCrossLanguageProgramming\bin\Debug\VisualBasicCrossLanguageProgramming.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\VisualBasicCrossLanguageProgramming\bin\Debug\VisualBasicCrossLanguageProgramming.xml
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\VisualBasicCrossLanguageProgramming\obj\Debug\VisualBasicCrossLanguageProgramming.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\VisualBasicCrossLanguageProgramming\obj\Debug\VisualBasicCrossLanguageProgramming.xml
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\VisualBasicCrossLanguageProgramming\obj\Debug\VisualBasicCrossLanguageProgramming.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\VisualBasicCrossLanguageProgramming\obj\Debug\VisualBasicCrossLanguageProgramming.vbproj.GenerateResource.Cache

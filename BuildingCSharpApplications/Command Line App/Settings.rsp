@@ -1,0 +1,6 @@
+#comments
+/reference:mscorlib.dll;System.Windows.Forms.dll;MathLibrary.dll
+/target:exe
+/out:ReadingCommandLineArgs.exe TestCommandLineApp.cs
+
+

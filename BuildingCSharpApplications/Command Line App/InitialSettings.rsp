@@ -1,0 +1,2 @@
+/out:MathLibrary.dll 
+/target:library MyMathLibrary.cs

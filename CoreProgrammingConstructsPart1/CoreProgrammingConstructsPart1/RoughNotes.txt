@@ -1,0 +1,18 @@
+﻿not cls compliant
+System.SByte
+System.UInt16
+System.UInt32
+System.UInt64
+
+yes cls compliant
+System.Byte	
+System.Int16
+System.Boolean
+System.Int32 (raw whole numbers default)
+System.Int64 (L)
+System.Char Single 16-bit Unicode character
+System.Single 32-bit floating-point number (F)
+System.Double 64-bit floating-point number (default floating point numbers)
+System.Decimal 96-bit signed number
+System.String
+System.Object

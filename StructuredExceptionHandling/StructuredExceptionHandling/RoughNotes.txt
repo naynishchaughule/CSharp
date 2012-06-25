@@ -1,0 +1,26 @@
+﻿Bugs: These are, simply put, errors made by the programmer.
+User errors: User errors, on the other hand, are typically caused by the individual
+running your application (invalid user input not accounted for in the code base).
+Exceptions: attempting to connect to a database that no longer
+exists, opening a corrupted XML file, or trying to contact a machine that is
+currently offline.
+.NET structured exception handling is a technique for dealing with runtime exceptions.
+even for the bugs and user errors that have escaped your view, the CLR will often generate
+ a corresponding exception that identifies the problem at hand.
+
+Within the .NET nomenclature, an “exception” accounts for bugs, bogus user input, and runtime
+errors
+
+Exceptions that are thrown by the .NET platform are (appropriately) called system exceptions.
+
+when an exception type derives from System.SystemException, you are able to determine that the .NET
+runtime is the entity that has thrown the exception, rather than the code base of the executing application.
+
+System.Runtime.ExceptionServices (which is a member of the mscorlib.dll assembly)
+intercept and process “corrupted state exceptions
+
+Within the Windows API, it is possible to trap extremely low-level errors that represent “corrupted
+state” errors.
+
+the only times you may accidentally trigger a CSE error is if your C# code is using
+platform invocation services (to talk directly to the Windows API) or using C# pointer syntax

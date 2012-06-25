@@ -1,0 +1,152 @@
+﻿System.Object.Finalize() method and IDisposable interface can be used to build
+classes that release internal unmanaged resources in a timely manner.
+
+the garbage collector removes an object from the heap when it is unreachable by any part of your code base.
+the managed heap maintains a pointer (commonly referred to as the next object pointer or new object pointer) that identifies exactly
+where the next object will be located.
+
+the newobj instruction tells the CLR to perform the following core operations:
+• Calculate the total amount of memory required for the object to be allocated
+(including the memory required by the data members and the base classes).
+• Examine the managed heap to ensure that there is indeed enough room to host
+the object to be allocated. If there is, the specified constructor is called and the
+caller is ultimately returned a reference to the new object in memory, whose
+address just happens to be identical to the last position of the next object pointer.
+• Finally, before returning the reference to the caller, advance the next object
+pointer to point to the next available slot on the managed heap.
+
+If the managed heap does not have sufficient memory to allocate a requested object, a garbage collection
+will occur.
+
+Application root is a storage location containing a reference to an object on the managed heap
+
+root can fall into any of the following categories:
+• References to global objects (though these are not allowed in C#, CIL code does
+permit allocation of global objects)
+• References to any static objects/static fields
+• References to local objects within an application’s code base
+• References to object parameters passed into a method
+• References to objects waiting to be finalized (described later in this chapter)
+• Any CPU register that references an object
+
+
+During a garbage collection process, the runtime will investigate objects on the managed heap to
+determine whether they are still reachable (i.e., rooted) by the application. To do so, the CLR will build
+an object graph, which represents each reachable object on the heap.
+
+Once an object has been marked for termination as they are not accounted for in the object graph,
+they are swept from memory. At this point, the remaining space on the heap is
+compacted, which in turn causes the CLR to modify the set of active application roots (and the
+underlying pointers) to refer to the correct memory location (this is done automatically and
+transparently). Last but not least, the next object pointer is readjusted to point to the next available slot.
+
+When the CLR is attempting to locate unreachable objects, it does not literally examine each and every
+object placed on the managed heap.
+
+To help optimize the process, each object on the heap is assigned to a specific “generation.” The
+idea behind generations is simple: the longer an object has existed on the heap, the more likely it is to
+stay there. For example, the class that defined the main window of a desktop application will be in
+memory until the program terminates. Conversely, objects that have only recently been placed on the
+heap (such as an object allocated within a method scope) are likely to be unreachable rather quickly.
+
+• Generation 0: Identifies a newly allocated object that has never been marked for
+collection.
+• Generation 1: Identifies an object that has survived a garbage collection (i.e., it was
+marked for collection but was not removed due to the fact that the sufficient heap
+space was acquired).
+• Generation 2: Identifies an object that has survived more than one sweep of the
+garbage collector.
+
+Generations 0 and 1 are termed ephemeral generations.
+The garbage collector will investigate all generation 0 objects first. If marking and sweeping (or said
+more plainly, getting rid of) these objects results in the required amount of free memory, any surviving
+objects are promoted to generation 1.
+
+If all generation 0 objects have been evaluated, but additional memory is still required, generation 1
+objects are then investigated for reachability and collected accordingly. Surviving generation 1 objects
+are then promoted to generation 2. If the garbage collector still requires additional memory, generation
+2 objects are evaluated. At this point, if a generation 2 object survives a garbage collection, it remains a
+generation 2 object given the predefined upper limit of object generations.
+The bottom line is that by assigning a generational value to objects on the heap, newer objects (such
+as local variables) will be removed quickly, while older objects (such as a program’s application object)
+are not “bothered” as often.
+
+Prior to .NET 4.0, the runtime would clean up unused objects using a technique termed concurrent
+garbage collection. Under this model, when a collection takes place for any generation 0 or generation 1
+objects (recall these are ephemeral generations), the garbage collector temporarily suspends all active
+threads within the current process to ensure that the application does not access the managed heap
+during the collection process.
+
+As an optimization, concurrent garbage collection allowed objects that were not located in one of
+the ephemeral generations to be cleaned up on a dedicated thread.
+Moreover, concurrent garbage collection
+allowed your program to continue allocating objects on the heap during the collection of nonephemeral
+generations.
+
+gen 0 and gen 1 GC, GC suspends all active threads within the current process to ensure app does not access managed heap.
+you can allocate objects on gen 0 and gen 1 when the GC for gen 2 is in process
+
+dedicated thread for cleaning up objects in gen 2
+
+
+background garbage collection
+GC for gen 2 and ephemeral generations(dedicated background thread) can happen in parallel
+reduced the amount of time a given thread involved with garbage collection must be suspended
+the process of cleaning up unused objects living in generation 0 or generation 1 has
+been optimized and can result in better runtime performance of your programs
+
+public enum GCCollectionMode
+{
+Default, // Forced is the current default.
+Forced, // Tells the runtime to collect immediately!
+Optimized // Allows the runtime to determine
+// whether the current time is optimal to reclaim objects.
+}
+
+AppDomain is unloaded from memory, the CLR automatically invokes finalizers for
+every finalizable object created during its lifetime.
+
+Under the .NET platform, unmanaged resources are obtained
+by directly calling into the API of the operating system using Platform Invocation Services (PInvoke) or
+as a result of some very elaborate COM interoperability scenarios
+
+The only reason to override Finalize() is if your C# class is making use of unmanaged resources via
+PInvoke or complex COM interoperability tasks (typically via various members defined by the
+System.Runtime.InteropServices.Marshal type).
+
+Not to beat a dead horse, but always remember that the role of the Finalize() method is to ensure that a
+.NET object can clean up unmanaged resources when it is garbage-collected. Thus, if you are building a
+class that does not make use of unmanaged entities (by far the most common case), finalization is of
+little use. In fact, if at all possible, you should design your types to avoid supporting a Finalize() method
+for the very simple reason that finalization takes time.
+
+When you allocate an object onto the managed heap, the runtime automatically determines
+whether your object supports a custom Finalize() method. If so, the object is marked as finalizable, and
+a pointer to this object is stored on an internal queue named the finalization queue. The finalization
+queue is a table maintained by the garbage collector that points to each and every object that must be
+finalized before it is removed from the heap.
+When the garbage collector determines it is time to free an object from memory, it examines each
+entry on the finalization queue and copies the object off the heap to yet another managed structure
+termed the finalization reachable table (often abbreviated as freachable, and pronounced “effreachable”).
+At this point, a separate thread is spawned to invoke the Finalize() method for each object
+on the freachable table at the next garbage collection. Given this, it will take at the very least two garbage
+collections to truly finalize an object.
+
+Always call Dispose() on any object you directly create if the object supports IDisposable. The
+assumption you should make is that if the class designer chose to support the Dispose() method, the type has
+some cleanup to perform.
+
+The current implementation of FinalizableObjects does work fairly well; however, we are left with a few
+minor drawbacks. First, the Finalize() and Dispose() methods each have to clean up the same
+unmanaged resources. This could result in duplicate code, which can easily become a nightmare to
+maintain. Ideally, you would define a private helper function that is called by either method.
+Next, you’d like to make sure that the Finalize() method does not attempt to dispose of any
+managed objects, while the Dispose() method should do so. Finally, you’d also like to be certain the
+object user can safely call Dispose() multiple times without error. Currently, our Dispose() method has
+no such safeguards.
+
+
+
+
+
+

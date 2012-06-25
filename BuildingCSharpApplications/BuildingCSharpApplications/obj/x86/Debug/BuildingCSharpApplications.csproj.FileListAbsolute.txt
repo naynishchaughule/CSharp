@@ -1,0 +1,6 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\BuildingCSharpApplications\BuildingCSharpApplications\bin\Debug\BuildingCSharpApplications.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\BuildingCSharpApplications\BuildingCSharpApplications\bin\Debug\BuildingCSharpApplications.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\BuildingCSharpApplications\BuildingCSharpApplications\obj\x86\Debug\BuildingCSharpApplications.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\BuildingCSharpApplications\BuildingCSharpApplications\obj\x86\Debug\BuildingCSharpApplications.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\BuildingCSharpApplications\BuildingCSharpApplications\bin\Debug\BuildingCSharpApplications.exe.config
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\BuildingCSharpApplications\BuildingCSharpApplications\obj\x86\Debug\BuildingCSharpApplications.csprojResolveAssemblyReference.cache

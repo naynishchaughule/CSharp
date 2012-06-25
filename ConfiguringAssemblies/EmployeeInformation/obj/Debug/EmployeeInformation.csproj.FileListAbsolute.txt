@@ -1,0 +1,5 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\EmployeeInformation\bin\Debug\EmployeeInformation.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\EmployeeInformation\bin\Debug\EmployeeInformation.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\EmployeeInformation\obj\Debug\EmployeeInformation.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\EmployeeInformation\obj\Debug\EmployeeInformation.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\EmployeeInformation\obj\Debug\EmployeeInformation.csprojResolveAssemblyReference.cache

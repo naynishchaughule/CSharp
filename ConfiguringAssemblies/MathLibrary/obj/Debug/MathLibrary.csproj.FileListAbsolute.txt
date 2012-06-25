@@ -1,0 +1,5 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\MathLibrary\bin\Debug\MathLibrary.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\MathLibrary\bin\Debug\MathLibrary.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\MathLibrary\obj\Debug\MathLibrary.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\MathLibrary\obj\Debug\MathLibrary.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\MathLibrary\obj\Debug\MathLibrary.csprojResolveAssemblyReference.cache

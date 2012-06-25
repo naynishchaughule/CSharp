@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InheritanceAndPolymorphism.Program">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceAndPolymorphism.Employee">
+    <Position X="2.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAASAOAAAAAgCAQEgAgAAQAAABAAgIASCAAAAgAAEkA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceAndPolymorphism.Programmer">
+    <Position X="4.75" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAABAAAAAAAAAAAAAAAQAAAAAAgAAAAAAAAAAAABA=</HashCode>
+      <FileName>Programmer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceAndPolymorphism.VicePresident">
+    <Position X="0.5" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAIAAAAAEAAAAAQAAAAAAgIAAIAAAAAAAAAA=</HashCode>
+      <FileName>VicePresident.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceAndPolymorphism.Fruit" Collapsed="true">
+    <Position X="7" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fruit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceAndPolymorphism.Apple" Collapsed="true">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Apple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceAndPolymorphism.Mango" Collapsed="true">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAABAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mango.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceAndPolymorphism.KashmirApple" Collapsed="true">
+    <Position X="8.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KashmirApple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceAndPolymorphism.MasterParent" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>MasterParent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritanceAndPolymorphism.OuterClass">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="InheritanceAndPolymorphism.OuterClass.InnerClass" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>OuterClass.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAQAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>OuterClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

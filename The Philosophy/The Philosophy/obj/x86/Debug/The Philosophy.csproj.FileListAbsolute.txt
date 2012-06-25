@@ -1,0 +1,10 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\The Philosophy\bin\Debug\The Philosophy.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\The Philosophy\bin\Debug\The Philosophy.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\The Philosophy\obj\x86\Debug\The Philosophy.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\The Philosophy\obj\x86\Debug\The Philosophy.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\The Philosophy\bin\Debug\MyCustomLibrary.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\The Philosophy\bin\Debug\MyCustomLibrary.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\The Philosophy\bin\Debug\VisualBasicCrossLanguageProgramming.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\The Philosophy\bin\Debug\VisualBasicCrossLanguageProgramming.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\The Philosophy\bin\Debug\VisualBasicCrossLanguageProgramming.xml
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\The Philosophy\obj\x86\Debug\The Philosophy.csprojResolveAssemblyReference.cache

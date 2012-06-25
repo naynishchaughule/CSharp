@@ -1,0 +1,5 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LINQtoObjects\LINQtoObjects\bin\Debug\LINQtoObjects.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LINQtoObjects\LINQtoObjects\bin\Debug\LINQtoObjects.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LINQtoObjects\LINQtoObjects\obj\x86\Debug\LINQtoObjects.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LINQtoObjects\LINQtoObjects\obj\x86\Debug\LINQtoObjects.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LINQtoObjects\LINQtoObjects\obj\x86\Debug\LINQtoObjects.csprojResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\StructuredExceptionHandling\StructuredExceptionHandling\bin\Debug\StructuredExceptionHandling.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\StructuredExceptionHandling\StructuredExceptionHandling\bin\Debug\StructuredExceptionHandling.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\StructuredExceptionHandling\StructuredExceptionHandling\obj\x86\Debug\StructuredExceptionHandling.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\StructuredExceptionHandling\StructuredExceptionHandling\obj\x86\Debug\StructuredExceptionHandling.pdb

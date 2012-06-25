@@ -1,0 +1,53 @@
+﻿framework:
+http://msdn.microsoft.com/en-US/netframework
+
+/target:exe, winexe, library
+
+command-line compilation
+(options / or -) flags before file
+/out: names the binary, default is the file name
+/target:winexe :- hides the console
+default: its an exe, file name is the name of the assembly
+csc /out:ReadingCommandLineArgs.exe /target:exe /reference:System.Windows.Forms.dll TestCommandLineApp.cs
+
+executing the exe
+ReadingCommandLineArgs naynish p. chaughule
+
+mscorlib.dll is automatically referenced (/nostdlib)
+
+cmd:
+csc /out:MathLibrary.dll /target:library MyMathLibrary.cs
+csc /out:ReadingCommandLineArgs.exe /target:exe /reference:mscorlib.dll;System.Windows.Forms.dll;MathLibrary.dll TestCommandLineApp.cs
+ReadingCommandLineArgs.exe naynish p. chaughule
+
+response file
+(assuming this file is saved in the same directory as the C# source code files to be compiled)
+/reference:mscorlib.dll;System.Windows.Forms.dll;MathLibrary.dll
+/target:exe
+/out:ReadingCommandLineArgs.exe TestCommandLineApp.cs
+
+/out:MathLibrary.dll 
+/target:library MyMathLibrary.cs
+
+csc @InitialSettings.rsp
+csc @Settings.rsp
+
+
+default response file
+C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319
+
+/noconfig to avoid default response file
+
+http://notepad-plus-plus.org/
+C:\Program Files (x86)\Notepad++\plugins\APIs\cs.xml
+
+http://www.icsharpcode.net/
+
+http://www.microsoft.com/visualstudio/en-us/products/2010-editions/express
+
+http://msdn.microsoft.com/en-US/vstudio
+
+“Investigating Code Snippet Technology” at http://msdn.microsoft.com.
+
+http://msdn.microsoft.com/library
+

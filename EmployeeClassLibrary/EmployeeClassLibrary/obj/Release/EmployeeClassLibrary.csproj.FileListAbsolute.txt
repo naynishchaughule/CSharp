@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\EmployeeClassLibrary\EmployeeClassLibrary\bin\Release\EmployeeClassLibrary.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\EmployeeClassLibrary\EmployeeClassLibrary\bin\Release\EmployeeClassLibrary.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\EmployeeClassLibrary\EmployeeClassLibrary\obj\Release\EmployeeClassLibrary.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\EmployeeClassLibrary\EmployeeClassLibrary\obj\Release\EmployeeClassLibrary.pdb

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApp", "SimpleApp\SimpleApp.csproj", "{DCE797D8-060F-474C-8D49-45CF9763E5F3}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://naynish-pc:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SimpleApp\\SimpleApp.csproj
+		SccProjectName1 = SimpleApp
+		SccLocalPath1 = SimpleApp
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE797D8-060F-474C-8D49-45CF9763E5F3}.Debug|x86.ActiveCfg = Debug|x86
+		{DCE797D8-060F-474C-8D49-45CF9763E5F3}.Debug|x86.Build.0 = Debug|x86
+		{DCE797D8-060F-474C-8D49-45CF9763E5F3}.Release|x86.ActiveCfg = Release|x86
+		{DCE797D8-060F-474C-8D49-45CF9763E5F3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

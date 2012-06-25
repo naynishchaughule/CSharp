@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\SimpleApp\SimpleApp\bin\Debug\SimpleApp.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\SimpleApp\SimpleApp\bin\Debug\SimpleApp.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\SimpleApp\SimpleApp\obj\x86\Debug\SimpleApp.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\SimpleApp\SimpleApp\obj\x86\Debug\SimpleApp.pdb

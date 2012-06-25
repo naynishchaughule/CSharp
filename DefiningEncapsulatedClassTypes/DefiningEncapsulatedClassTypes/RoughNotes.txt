@@ -1,0 +1,36 @@
+﻿However, as soon as you define a custom constructor, the default constructor is silently removed
+from the class and is no longer available! Think of it this way: if you do not define a custom constructor,
+the C# compiler grants you a default in order to allow the object user to allocate an instance of your type
+with field data set to the correct default values. However, when you define a unique constructor, the
+compiler assumes you have taken matters into your own hands.
+
+Therefore, if you wish to allow the object user to create an instance of your type with the default
+constructor, as well as your custom constructor, you must explicitly redefine the default.
+
+Defining Static Classes
+It is also possible to apply the static keyword directly on the class level. When a class has been defined
+as static, it is not creatable using the new keyword, and it can contain only members or fields marked
+with the static keyword.
+
+Class or structures that only expose static functionality are often termed utility classes. When designing a
+utility class, it is good practice to apply the static keyword to the class definition.
+
+public
+Types or type members
+
+internal
+Types or type members
+
+private
+Type members or nested types
+
+protected
+Type members or nested types
+
+protected internal
+Type members or nested types
+
+By default, type members are implicitly private while types are implicitly internal.
+while making libraries you have to mark types as public.
+
+//encapsulate using properties

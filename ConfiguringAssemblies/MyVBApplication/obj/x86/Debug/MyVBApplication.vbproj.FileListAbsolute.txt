@@ -1,0 +1,11 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\MyVBApplication\bin\Debug\MyVBApplication.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\MyVBApplication\bin\Debug\MyVBApplication.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\MyVBApplication\bin\Debug\MyVBApplication.xml
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\MyVBApplication\bin\Debug\EmployeeInformation.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\MyVBApplication\bin\Debug\EmployeeInformation.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\MyVBApplication\obj\x86\Debug\MyVBApplication.Resources.resources
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\MyVBApplication\obj\x86\Debug\MyVBApplication.vbproj.GenerateResource.Cache
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\MyVBApplication\obj\x86\Debug\MyVBApplication.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\MyVBApplication\obj\x86\Debug\MyVBApplication.xml
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\MyVBApplication\obj\x86\Debug\MyVBApplication.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ConfiguringAssemblies\MyVBApplication\obj\x86\Debug\MyVBApplication.vbprojResolveAssemblyReference.cache

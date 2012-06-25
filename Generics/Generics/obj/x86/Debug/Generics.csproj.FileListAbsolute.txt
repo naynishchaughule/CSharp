@@ -1,0 +1,5 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Generics\Generics\bin\Debug\Generics.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Generics\Generics\bin\Debug\Generics.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Generics\Generics\obj\x86\Debug\Generics.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Generics\Generics\obj\x86\Debug\Generics.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Generics\Generics\obj\x86\Debug\Generics.csprojResolveAssemblyReference.cache

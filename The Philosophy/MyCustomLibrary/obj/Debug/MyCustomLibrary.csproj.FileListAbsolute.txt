@@ -1,0 +1,5 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\MyCustomLibrary\bin\Debug\MyCustomLibrary.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\MyCustomLibrary\bin\Debug\MyCustomLibrary.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\MyCustomLibrary\obj\Debug\MyCustomLibrary.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\MyCustomLibrary\obj\Debug\MyCustomLibrary.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\The Philosophy\MyCustomLibrary\obj\Debug\MyCustomLibrary.csprojResolveAssemblyReference.cache

@@ -1,0 +1,49 @@
+﻿Assembly
+
+primary module (binary *.dll, *.exe) 
+assembly level manifest
+metadata (info about types), IL
+
+other modules
+module level manifest
+metadata, IL
+
+VS2010, single file assembly
+
+multi file assembly, command line tools
+
+a type member is constrained by the set {constructor, finalizer, static constructor, nested type, operator, method, property, indexer, field, read-only field, constant,
+event}.
+
+the term runtime can be understood as a collection of services that are required to execute a given compiled unit of code (mscoree.dll)
+When an assembly is referenced for use, mscoree.dll is loaded
+automatically, which in turn loads the required assembly into memory. The runtime engine is
+responsible for a number of tasks. First and foremost, it is the entity in charge of resolving the location of
+an assembly and finding the requested type within the binary by reading the contained metadata. The
+CLR then lays out the type in memory, compiles the associated CIL into platform-specific instructions,
+performs any necessary security checks, and then executes the code in question.
+
+the CLR will also interact with the types contained within the .NET base class libraries when required. Although the entire
+base class library has been broken into a number of discrete assemblies, the key assembly is
+mscorlib.dll, which contains a large number of core types that encapsulate a wide variety of common
+programming tasks as well as the core data types used by all .NET languages. When you build .NET
+solutions, you automatically have access to this particular assembly.
+
+decompilers
+http://www.red-gate.com/products/reflector
+http://www.i-programmer.info/news/89-net/4203-dotpeek-a-free-net-decompiler.html
+http://www.jetbrains.com/decompiler/download/index.html?file=msi
+
+
+deploying full runtime
+http://www.microsoft.com/en-us/download/details.aspx?id=17718
+
+client profile
+http://www.microsoft.com/en-us/download/details.aspx?id=24872
+
+runtime
+http://www.mono-project.com
+http://www.dotgnu.org/
+
+mono C# tool
+http://monodevelop.com/
