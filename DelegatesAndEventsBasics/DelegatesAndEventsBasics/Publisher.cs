@@ -12,8 +12,7 @@ namespace DelegatesAndEventsBasics
         public Publisher()
         {
             MyCustomEvent += new MyCustomDelegates.DelegateMath(this.SimpleHandler);
-             obj = new MyCustomDelegates.DelegateNaynish(SimpleHandler);
-
+            obj = new MyCustomDelegates.DelegateNaynish(SimpleHandler);
         }
 
         public void Fire()
