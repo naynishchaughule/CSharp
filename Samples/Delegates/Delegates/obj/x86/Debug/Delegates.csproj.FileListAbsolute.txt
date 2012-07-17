@@ -1,0 +1,7 @@
+C:\Users\naynish\Desktop\Delegates\Delegates\bin\Debug\Delegates.exe
+C:\Users\naynish\Desktop\Delegates\Delegates\bin\Debug\Delegates.pdb
+C:\Users\naynish\Desktop\Delegates\Delegates\obj\x86\Debug\Delegates.Form1.resources
+C:\Users\naynish\Desktop\Delegates\Delegates\obj\x86\Debug\Delegates.Properties.Resources.resources
+C:\Users\naynish\Desktop\Delegates\Delegates\obj\x86\Debug\Delegates.csproj.GenerateResource.Cache
+C:\Users\naynish\Desktop\Delegates\Delegates\obj\x86\Debug\Delegates.exe
+C:\Users\naynish\Desktop\Delegates\Delegates\obj\x86\Debug\Delegates.pdb
