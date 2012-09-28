@@ -1,0 +1,7 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DynamicTypesDLR\DynamicTypesDLR\bin\Debug\DynamicTypesDLR.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DynamicTypesDLR\DynamicTypesDLR\bin\Debug\DynamicTypesDLR.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DynamicTypesDLR\DynamicTypesDLR\obj\x86\Debug\DynamicTypesDLR.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DynamicTypesDLR\DynamicTypesDLR\obj\x86\Debug\DynamicTypesDLR.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DynamicTypesDLR\DynamicTypesDLR\bin\Debug\DynamicTypesDLR.exe.config
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DynamicTypesDLR\DynamicTypesDLR\obj\x86\Debug\Interop.JAVAWEBSTARTLib.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DynamicTypesDLR\DynamicTypesDLR\obj\x86\Debug\DynamicTypesDLR.csproj.ResolveComReference.cache

@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ReflectionLateBindingAttributeBased\ConsoleApplication1\SimpleEmployee\bin\Debug\SimpleEmployee.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ReflectionLateBindingAttributeBased\ConsoleApplication1\SimpleEmployee\bin\Debug\SimpleEmployee.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ReflectionLateBindingAttributeBased\ConsoleApplication1\SimpleEmployee\obj\Debug\SimpleEmployee.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ReflectionLateBindingAttributeBased\ConsoleApplication1\SimpleEmployee\obj\Debug\SimpleEmployee.pdb

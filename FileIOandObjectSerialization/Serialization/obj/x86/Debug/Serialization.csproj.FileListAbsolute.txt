@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\FileIOandObjectSerialization\Serialization\bin\Debug\Serialization.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\FileIOandObjectSerialization\Serialization\bin\Debug\Serialization.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\FileIOandObjectSerialization\Serialization\obj\x86\Debug\Serialization.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\FileIOandObjectSerialization\Serialization\obj\x86\Debug\Serialization.pdb

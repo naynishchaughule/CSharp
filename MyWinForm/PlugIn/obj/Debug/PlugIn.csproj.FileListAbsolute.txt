@@ -1,0 +1,7 @@
+C:\Users\naynish\Desktop\MyWinForm\PlugIn\bin\Debug\PlugIn.dll
+C:\Users\naynish\Desktop\MyWinForm\PlugIn\bin\Debug\PlugIn.pdb
+C:\Users\naynish\Desktop\MyWinForm\PlugIn\bin\Debug\AppHooks.dll
+C:\Users\naynish\Desktop\MyWinForm\PlugIn\bin\Debug\AppHooks.pdb
+C:\Users\naynish\Desktop\MyWinForm\PlugIn\obj\Debug\PlugIn.csprojResolveAssemblyReference.cache
+C:\Users\naynish\Desktop\MyWinForm\PlugIn\obj\Debug\PlugIn.dll
+C:\Users\naynish\Desktop\MyWinForm\PlugIn\obj\Debug\PlugIn.pdb

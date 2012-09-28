@@ -1,0 +1,10 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\ExtendableApplication\bin\Debug\ExtendableApplication.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\ExtendableApplication\bin\Debug\ExtendableApplication.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\ExtendableApplication\obj\x86\Debug\ExtendableApplication.Properties.Resources.resources
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\ExtendableApplication\obj\x86\Debug\ExtendableApplication.csproj.GenerateResource.Cache
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\ExtendableApplication\obj\x86\Debug\ExtendableApplication.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\ExtendableApplication\obj\x86\Debug\ExtendableApplication.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\ExtendableApplication\bin\Debug\CommonSnappableTypes.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\ExtendableApplication\bin\Debug\CommonSnappableTypes.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\ExtendableApplication\obj\x86\Debug\ExtendableApplication.csprojResolveAssemblyReference.cache
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\ExtendableApplication\obj\x86\Debug\ExtendableApplication.Form1.resources

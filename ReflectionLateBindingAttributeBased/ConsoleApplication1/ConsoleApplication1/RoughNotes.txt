@@ -1,0 +1,18 @@
+﻿external tools such as ildasm.exe and reflector.exe allow you to peek into the underlying CIL code, type metadata, and
+assembly manifest for a given .NET binary. In addition to this design-time investigation of .NET
+assemblies, you are also able to programmatically obtain this same information using the
+System.Reflection namespace.
+
+reflection is the process of runtime type discovery.
+
+there will be many times when you need to load assemblies on the fly programmatically, 
+even if there is no record of said assembly in the manifest. Formally speaking, the act of 
+loading external assemblies on demand is known as a dynamic load.
+
+.NET platform provides a way for programmers to embed additional metadata into an assembly using attributes.
+.NET attributes are class types that extend the abstract System.Attribute base class.
+
+• Attributes are classes that derive from System.Attribute.
+• Attributes result in embedded metadata.
+• Attributes are basically useless until another agent reflects upon them.
+• Attributes are applied in C# using square brackets.

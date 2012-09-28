@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\MultiThreadedPrinting\bin\Debug\MultiThreadedPrinting.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\MultiThreadedPrinting\bin\Debug\MultiThreadedPrinting.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\MultiThreadedPrinting\obj\x86\Debug\MultiThreadedPrinting.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\MultiThreadedPrinting\obj\x86\Debug\MultiThreadedPrinting.pdb

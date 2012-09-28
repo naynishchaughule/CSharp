@@ -1,0 +1,7 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\PLINQDataProcessingWithCancellation\bin\Debug\PLINQDataProcessingWithCancellation.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\PLINQDataProcessingWithCancellation\bin\Debug\PLINQDataProcessingWithCancellation.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\PLINQDataProcessingWithCancellation\obj\x86\Debug\PLINQDataProcessingWithCancellation.Form1.resources
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\PLINQDataProcessingWithCancellation\obj\x86\Debug\PLINQDataProcessingWithCancellation.Properties.Resources.resources
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\PLINQDataProcessingWithCancellation\obj\x86\Debug\PLINQDataProcessingWithCancellation.csproj.GenerateResource.Cache
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\PLINQDataProcessingWithCancellation\obj\x86\Debug\PLINQDataProcessingWithCancellation.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\PLINQDataProcessingWithCancellation\obj\x86\Debug\PLINQDataProcessingWithCancellation.pdb

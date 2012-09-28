@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicTypesDLR", "DynamicTypesDLR\DynamicTypesDLR.csproj", "{1DF849A5-BDEB-4ED0-ADC1-2B9D8DFEFF5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLibrary", "MathLibrary\MathLibrary.csproj", "{CDC51E67-1194-475E-8E57-02BF627CE2D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportDataToOfficeApp", "ExportDataToOfficeApp\ExportDataToOfficeApp.csproj", "{06D3E409-ABF6-408A-8187-87F801C04125}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://naynish-pc:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DynamicTypesDLR\\DynamicTypesDLR.csproj
+		SccProjectName1 = DynamicTypesDLR
+		SccLocalPath1 = DynamicTypesDLR
+		SccProjectUniqueName2 = MathLibrary\\MathLibrary.csproj
+		SccProjectName2 = MathLibrary
+		SccLocalPath2 = MathLibrary
+		SccProjectUniqueName3 = ExportDataToOfficeApp\\ExportDataToOfficeApp.csproj
+		SccProjectName3 = ExportDataToOfficeApp
+		SccLocalPath3 = ExportDataToOfficeApp
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DF849A5-BDEB-4ED0-ADC1-2B9D8DFEFF5C}.Debug|x86.ActiveCfg = Debug|x86
+		{1DF849A5-BDEB-4ED0-ADC1-2B9D8DFEFF5C}.Debug|x86.Build.0 = Debug|x86
+		{1DF849A5-BDEB-4ED0-ADC1-2B9D8DFEFF5C}.Release|x86.ActiveCfg = Release|x86
+		{1DF849A5-BDEB-4ED0-ADC1-2B9D8DFEFF5C}.Release|x86.Build.0 = Release|x86
+		{CDC51E67-1194-475E-8E57-02BF627CE2D7}.Debug|x86.ActiveCfg = Debug|x86
+		{CDC51E67-1194-475E-8E57-02BF627CE2D7}.Debug|x86.Build.0 = Debug|x86
+		{CDC51E67-1194-475E-8E57-02BF627CE2D7}.Release|x86.ActiveCfg = Release|x86
+		{CDC51E67-1194-475E-8E57-02BF627CE2D7}.Release|x86.Build.0 = Release|x86
+		{06D3E409-ABF6-408A-8187-87F801C04125}.Debug|x86.ActiveCfg = Debug|x86
+		{06D3E409-ABF6-408A-8187-87F801C04125}.Debug|x86.Build.0 = Debug|x86
+		{06D3E409-ABF6-408A-8187-87F801C04125}.Release|x86.ActiveCfg = Release|x86
+		{06D3E409-ABF6-408A-8187-87F801C04125}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

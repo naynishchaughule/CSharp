@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachedFactorial", "CachedFactorial\CachedFactorial.csproj", "{F57DB63D-8FFD-4B0E-BA06-207428D34157}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://naynish-pc:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CachedFactorial\\CachedFactorial.csproj
+		SccProjectName1 = CachedFactorial
+		SccLocalPath1 = CachedFactorial
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F57DB63D-8FFD-4B0E-BA06-207428D34157}.Debug|x86.ActiveCfg = Debug|x86
+		{F57DB63D-8FFD-4B0E-BA06-207428D34157}.Debug|x86.Build.0 = Debug|x86
+		{F57DB63D-8FFD-4B0E-BA06-207428D34157}.Release|x86.ActiveCfg = Release|x86
+		{F57DB63D-8FFD-4B0E-BA06-207428D34157}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

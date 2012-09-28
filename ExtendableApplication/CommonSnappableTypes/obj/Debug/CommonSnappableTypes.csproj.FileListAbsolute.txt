@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\CommonSnappableTypes\bin\Debug\CommonSnappableTypes.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\CommonSnappableTypes\bin\Debug\CommonSnappableTypes.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\CommonSnappableTypes\obj\Debug\CommonSnappableTypes.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\CommonSnappableTypes\obj\Debug\CommonSnappableTypes.pdb

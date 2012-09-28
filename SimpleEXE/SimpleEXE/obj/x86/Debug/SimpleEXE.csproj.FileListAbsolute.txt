@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\SimpleEXE\SimpleEXE\bin\Debug\SimpleEXE.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\SimpleEXE\SimpleEXE\bin\Debug\SimpleEXE.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\SimpleEXE\SimpleEXE\obj\x86\Debug\SimpleEXE.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\SimpleEXE\SimpleEXE\obj\x86\Debug\SimpleEXE.pdb

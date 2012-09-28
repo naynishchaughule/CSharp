@@ -1,0 +1,7 @@
+C:\Users\naynish\Desktop\Tutorial\MyFirstApp\MyFirstApp\bin\Debug\MyFirstApp.exe
+C:\Users\naynish\Desktop\Tutorial\MyFirstApp\MyFirstApp\bin\Debug\MyFirstApp.pdb
+C:\Users\naynish\Desktop\Tutorial\MyFirstApp\MyFirstApp\obj\x86\Debug\MyFirstApp.exe
+C:\Users\naynish\Desktop\Tutorial\MyFirstApp\MyFirstApp\obj\x86\Debug\MyFirstApp.pdb
+C:\Users\naynish\Desktop\Tutorial\MyFirstApp\MyFirstApp\bin\Debug\MyClassLibrary.dll
+C:\Users\naynish\Desktop\Tutorial\MyFirstApp\MyFirstApp\bin\Debug\MyClassLibrary.pdb
+C:\Users\naynish\Desktop\Tutorial\MyFirstApp\MyFirstApp\obj\x86\Debug\MyFirstApp.csprojResolveAssemblyReference.cache

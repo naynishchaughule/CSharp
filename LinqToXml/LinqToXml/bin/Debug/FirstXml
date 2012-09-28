@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--my first xml document-->
+<Employee ID="48090">
+  <Fname>naynish</Fname>
+  <Lname>chaughule</Lname>
+  <Salary>85000</Salary>
+</Employee>

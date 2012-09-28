@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<Employees OrgCode="382">
+  
+  <Employee>
+    <ID>48090</ID>
+    <Fname>naynish</Fname>
+    <Lname>chaughule</Lname>
+    <Mobile>9920053379</Mobile>
+    <Salary>55000</Salary>
+  </Employee>
+  
+  <Employee>
+    <ID>48091</ID>
+    <Fname>jay</Fname>
+    <Lname>bhatt</Lname>
+    <Mobile>6389022</Mobile>
+    <Salary>75000</Salary>
+  </Employee>
+  
+  <Employee>
+    <ID>48092</ID>
+    <Fname>purab</Fname>
+    <Lname>bhatt</Lname>
+    <Mobile>774903282</Mobile>
+    <Salary>85000</Salary>
+  </Employee>
+  
+</Employees>

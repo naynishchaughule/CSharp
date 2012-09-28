@@ -1,0 +1,5 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ProcessesAppDomainsObjectContexts\ProcessesAppDomainsObjectContexts\bin\Debug\ProcessesAppDomainsObjectContexts.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ProcessesAppDomainsObjectContexts\ProcessesAppDomainsObjectContexts\bin\Debug\ProcessesAppDomainsObjectContexts.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ProcessesAppDomainsObjectContexts\ProcessesAppDomainsObjectContexts\obj\x86\Debug\ProcessesAppDomainsObjectContexts.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ProcessesAppDomainsObjectContexts\ProcessesAppDomainsObjectContexts\obj\x86\Debug\ProcessesAppDomainsObjectContexts.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ProcessesAppDomainsObjectContexts\ProcessesAppDomainsObjectContexts\obj\x86\Debug\ProcessesAppDomainsObjectContexts.csprojResolveAssemblyReference.cache

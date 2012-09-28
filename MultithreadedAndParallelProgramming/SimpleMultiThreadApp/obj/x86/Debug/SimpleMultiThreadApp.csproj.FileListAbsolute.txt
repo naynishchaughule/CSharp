@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\SimpleMultiThreadApp\bin\Debug\SimpleMultiThreadApp.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\SimpleMultiThreadApp\bin\Debug\SimpleMultiThreadApp.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\SimpleMultiThreadApp\obj\x86\Debug\SimpleMultiThreadApp.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\SimpleMultiThreadApp\obj\x86\Debug\SimpleMultiThreadApp.pdb

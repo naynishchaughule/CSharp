@@ -1,0 +1,5 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CILAndDynamicAssemblies\CILAndDynamicAssemblies\bin\Debug\CILAndDynamicAssemblies.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CILAndDynamicAssemblies\CILAndDynamicAssemblies\bin\Debug\CILAndDynamicAssemblies.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CILAndDynamicAssemblies\CILAndDynamicAssemblies\obj\x86\Debug\CILAndDynamicAssemblies.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CILAndDynamicAssemblies\CILAndDynamicAssemblies\obj\x86\Debug\CILAndDynamicAssemblies.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CILAndDynamicAssemblies\CILAndDynamicAssemblies\obj\x86\Debug\CILAndDynamicAssemblies.csprojResolveAssemblyReference.cache

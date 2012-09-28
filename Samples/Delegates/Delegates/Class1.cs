@@ -23,7 +23,7 @@ namespace Delegates
 
         public bool Method2()
         {
-            int i = 30;
+            int i = 65;
             if (i < 40)
             {
                 //successful execution of method

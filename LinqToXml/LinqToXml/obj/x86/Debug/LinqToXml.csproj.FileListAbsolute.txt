@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqToXml\LinqToXml\bin\Debug\LinqToXml.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqToXml\LinqToXml\bin\Debug\LinqToXml.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqToXml\LinqToXml\obj\x86\Debug\LinqToXml.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqToXml\LinqToXml\obj\x86\Debug\LinqToXml.pdb

@@ -1,0 +1,4 @@
+C:\Users\naynish\Desktop\Matrix\Matrix\bin\Debug\Matrix.exe
+C:\Users\naynish\Desktop\Matrix\Matrix\bin\Debug\Matrix.pdb
+C:\Users\naynish\Desktop\Matrix\Matrix\obj\x86\Debug\Matrix.exe
+C:\Users\naynish\Desktop\Matrix\Matrix\obj\x86\Debug\Matrix.pdb

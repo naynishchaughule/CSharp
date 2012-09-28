@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\MultithreadedAndParallelProgramming\bin\Debug\MultithreadedAndParallelProgramming.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\MultithreadedAndParallelProgramming\bin\Debug\MultithreadedAndParallelProgramming.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\MultithreadedAndParallelProgramming\obj\x86\Debug\MultithreadedAndParallelProgramming.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\MultithreadedAndParallelProgramming\obj\x86\Debug\MultithreadedAndParallelProgramming.pdb

@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\TimerApp\bin\Debug\TimerApp.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\TimerApp\bin\Debug\TimerApp.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\TimerApp\obj\x86\Debug\TimerApp.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\TimerApp\obj\x86\Debug\TimerApp.pdb

@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqLearnDev\LinqOverview\LinqOverview\bin\Debug\LinqOverview.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqLearnDev\LinqOverview\LinqOverview\bin\Debug\LinqOverview.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqLearnDev\LinqOverview\LinqOverview\obj\x86\Debug\LinqOverview.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqLearnDev\LinqOverview\LinqOverview\obj\x86\Debug\LinqOverview.pdb

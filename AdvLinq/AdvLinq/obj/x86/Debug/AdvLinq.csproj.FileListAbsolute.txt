@@ -1,0 +1,5 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\AdvLinq\AdvLinq\bin\Debug\AdvLinq.exe.config
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\AdvLinq\AdvLinq\bin\Debug\AdvLinq.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\AdvLinq\AdvLinq\bin\Debug\AdvLinq.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\AdvLinq\AdvLinq\obj\x86\Debug\AdvLinq.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\AdvLinq\AdvLinq\obj\x86\Debug\AdvLinq.pdb

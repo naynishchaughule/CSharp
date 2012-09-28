@@ -1,0 +1,7 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\DataParallelismWithForEach\bin\Debug\DataParallelismWithForEach.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\DataParallelismWithForEach\bin\Debug\DataParallelismWithForEach.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\DataParallelismWithForEach\obj\x86\Debug\DataParallelismWithForEach.Form1.resources
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\DataParallelismWithForEach\obj\x86\Debug\DataParallelismWithForEach.Properties.Resources.resources
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\DataParallelismWithForEach\obj\x86\Debug\DataParallelismWithForEach.csproj.GenerateResource.Cache
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\DataParallelismWithForEach\obj\x86\Debug\DataParallelismWithForEach.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\DataParallelismWithForEach\obj\x86\Debug\DataParallelismWithForEach.pdb

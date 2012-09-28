@@ -1,0 +1,7 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ParallelProgramming\ParallelProgramming\bin\Debug\ParallelProgramming.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ParallelProgramming\ParallelProgramming\bin\Debug\ParallelProgramming.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ParallelProgramming\ParallelProgramming\obj\x86\Debug\ParallelProgramming.Form1.resources
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ParallelProgramming\ParallelProgramming\obj\x86\Debug\ParallelProgramming.Properties.Resources.resources
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ParallelProgramming\ParallelProgramming\obj\x86\Debug\ParallelProgramming.csproj.GenerateResource.Cache
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ParallelProgramming\ParallelProgramming\obj\x86\Debug\ParallelProgramming.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ParallelProgramming\ParallelProgramming\obj\x86\Debug\ParallelProgramming.pdb

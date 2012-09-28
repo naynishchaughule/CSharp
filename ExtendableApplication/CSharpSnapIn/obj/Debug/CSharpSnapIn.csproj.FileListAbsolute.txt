@@ -1,0 +1,7 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\CSharpSnapIn\bin\Debug\CSharpSnapIn.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\CSharpSnapIn\bin\Debug\CSharpSnapIn.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\CSharpSnapIn\bin\Debug\CommonSnappableTypes.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\CSharpSnapIn\bin\Debug\CommonSnappableTypes.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\CSharpSnapIn\obj\Debug\CSharpSnapIn.csprojResolveAssemblyReference.cache
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\CSharpSnapIn\obj\Debug\CSharpSnapIn.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ExtendableApplication\CSharpSnapIn\obj\Debug\CSharpSnapIn.pdb

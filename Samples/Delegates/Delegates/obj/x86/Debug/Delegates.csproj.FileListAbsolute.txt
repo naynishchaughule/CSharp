@@ -5,3 +5,11 @@ C:\Users\naynish\Desktop\Delegates\Delegates\obj\x86\Debug\Delegates.Properties.
 C:\Users\naynish\Desktop\Delegates\Delegates\obj\x86\Debug\Delegates.csproj.GenerateResource.Cache
 C:\Users\naynish\Desktop\Delegates\Delegates\obj\x86\Debug\Delegates.exe
 C:\Users\naynish\Desktop\Delegates\Delegates\obj\x86\Debug\Delegates.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Samples\Delegates\Delegates\obj\x86\Debug\Delegates.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Samples\Delegates\Delegates\obj\x86\Debug\Delegates.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Samples\Delegates\Delegates\bin\Debug\Delegates.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Samples\Delegates\Delegates\bin\Debug\Delegates.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Samples\Delegates\Delegates\obj\x86\Debug\Delegates.Form1.resources
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Samples\Delegates\Delegates\obj\x86\Debug\Delegates.Properties.Resources.resources
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Samples\Delegates\Delegates\obj\x86\Debug\Delegates.csproj.GenerateResource.Cache
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\Samples\Delegates\Delegates\obj\x86\Debug\Delegates.csprojResolveAssemblyReference.cache

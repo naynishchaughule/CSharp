@@ -1,0 +1,7 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\MyEBookReader\bin\Debug\MyEBookReader.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\MyEBookReader\bin\Debug\MyEBookReader.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\MyEBookReader\obj\x86\Debug\MyEBookReader.Form1.resources
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\MyEBookReader\obj\x86\Debug\MyEBookReader.Properties.Resources.resources
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\MyEBookReader\obj\x86\Debug\MyEBookReader.csproj.GenerateResource.Cache
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\MyEBookReader\obj\x86\Debug\MyEBookReader.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\MyEBookReader\obj\x86\Debug\MyEBookReader.pdb

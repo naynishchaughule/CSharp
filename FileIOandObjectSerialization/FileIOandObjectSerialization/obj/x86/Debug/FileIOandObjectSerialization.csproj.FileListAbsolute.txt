@@ -1,0 +1,5 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\FileIOandObjectSerialization\FileIOandObjectSerialization\bin\Debug\FileIOandObjectSerialization.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\FileIOandObjectSerialization\FileIOandObjectSerialization\bin\Debug\FileIOandObjectSerialization.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\FileIOandObjectSerialization\FileIOandObjectSerialization\obj\x86\Debug\FileIOandObjectSerialization.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\FileIOandObjectSerialization\FileIOandObjectSerialization\obj\x86\Debug\FileIOandObjectSerialization.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\FileIOandObjectSerialization\FileIOandObjectSerialization\obj\x86\Debug\FileIOandObjectSerialization.csprojResolveAssemblyReference.cache

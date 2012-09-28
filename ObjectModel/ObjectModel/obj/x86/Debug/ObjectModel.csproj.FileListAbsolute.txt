@@ -1,0 +1,5 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ObjectModel\ObjectModel\bin\Debug\ObjectModel.exe.config
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ObjectModel\ObjectModel\bin\Debug\ObjectModel.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ObjectModel\ObjectModel\bin\Debug\ObjectModel.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ObjectModel\ObjectModel\obj\x86\Debug\ObjectModel.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\ObjectModel\ObjectModel\obj\x86\Debug\ObjectModel.pdb

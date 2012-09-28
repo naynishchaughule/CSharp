@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\AsyncDelegatesDemo\bin\Debug\AsyncDelegatesDemo.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\AsyncDelegatesDemo\bin\Debug\AsyncDelegatesDemo.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\AsyncDelegatesDemo\obj\x86\Debug\AsyncDelegatesDemo.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\MultithreadedAndParallelProgramming\AsyncDelegatesDemo\obj\x86\Debug\AsyncDelegatesDemo.pdb

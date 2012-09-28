@@ -1,0 +1,4 @@
+C:\Users\naynish\Desktop\Tutorial\PascalTriangle\PascalTriangle\bin\Debug\PascalTriangle.exe
+C:\Users\naynish\Desktop\Tutorial\PascalTriangle\PascalTriangle\bin\Debug\PascalTriangle.pdb
+C:\Users\naynish\Desktop\Tutorial\PascalTriangle\PascalTriangle\obj\x86\Debug\PascalTriangle.exe
+C:\Users\naynish\Desktop\Tutorial\PascalTriangle\PascalTriangle\obj\x86\Debug\PascalTriangle.pdb

@@ -1,0 +1,5 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqToSql\LinqToSql\bin\Debug\LinqToSql.exe.config
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqToSql\LinqToSql\bin\Debug\LinqToSql.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqToSql\LinqToSql\bin\Debug\LinqToSql.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqToSql\LinqToSql\obj\x86\Debug\LinqToSql.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqToSql\LinqToSql\obj\x86\Debug\LinqToSql.pdb

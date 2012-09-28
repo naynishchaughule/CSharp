@@ -1,0 +1,5 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqSqlAdvanced\LinqSqlAdvanced\bin\Debug\LinqSqlAdvanced.exe.config
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqSqlAdvanced\LinqSqlAdvanced\bin\Debug\LinqSqlAdvanced.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqSqlAdvanced\LinqSqlAdvanced\bin\Debug\LinqSqlAdvanced.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqSqlAdvanced\LinqSqlAdvanced\obj\x86\Debug\LinqSqlAdvanced.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\LinqSqlAdvanced\LinqSqlAdvanced\obj\x86\Debug\LinqSqlAdvanced.pdb

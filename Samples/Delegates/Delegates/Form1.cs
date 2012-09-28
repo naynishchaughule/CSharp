@@ -28,7 +28,7 @@ namespace Delegates
                 if(((myCustom)item).Invoke())
                 {
                     //MessageBox.Show(item.Method.ToString());
-                    progressBar1.Maximum = 20;
+                    progressBar1.Maximum = 2;
                     progressBar1.Value += 1;
                     label1.Text += "\n" + item.Method.Name + "\n";
                 }

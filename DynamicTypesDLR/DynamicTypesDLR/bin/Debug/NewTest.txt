@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Reflection;
+
+namespace Amazon
+{
+  internal class Employee
+  {
+    public int Id { get; set; }
+
+    public string Fname { get; set; }
+
+    public double Salary { get; set; }
+
+    public double CalculateBonus()
+    {
+      return this.Salary + this.Salary * 0.3;
+    }
+
+    public override string ToString()
+    {
+      return string.Format("Employee details: Id {0}, Fname {1}, Salary {2}", (object) this.Id, (object) this.Fname, (object) this.Salary);
+    }
+  }
+}

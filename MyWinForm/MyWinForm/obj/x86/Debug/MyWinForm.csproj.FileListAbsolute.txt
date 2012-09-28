@@ -1,0 +1,10 @@
+C:\Users\naynish\Desktop\MyWinForm\MyWinForm\bin\Debug\MyWinForm.exe
+C:\Users\naynish\Desktop\MyWinForm\MyWinForm\bin\Debug\MyWinForm.pdb
+C:\Users\naynish\Desktop\MyWinForm\MyWinForm\obj\x86\Debug\MyWinForm.Form1.resources
+C:\Users\naynish\Desktop\MyWinForm\MyWinForm\obj\x86\Debug\MyWinForm.Properties.Resources.resources
+C:\Users\naynish\Desktop\MyWinForm\MyWinForm\obj\x86\Debug\MyWinForm.csproj.GenerateResource.Cache
+C:\Users\naynish\Desktop\MyWinForm\MyWinForm\obj\x86\Debug\MyWinForm.exe
+C:\Users\naynish\Desktop\MyWinForm\MyWinForm\obj\x86\Debug\MyWinForm.pdb
+C:\Users\naynish\Desktop\MyWinForm\MyWinForm\bin\Debug\AppHooks.dll
+C:\Users\naynish\Desktop\MyWinForm\MyWinForm\bin\Debug\AppHooks.pdb
+C:\Users\naynish\Desktop\MyWinForm\MyWinForm\obj\x86\Debug\MyWinForm.csprojResolveAssemblyReference.cache

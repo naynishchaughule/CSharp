@@ -1,0 +1,4 @@
+C:\Users\naynish\Desktop\Tutorial\MyFirstApp\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+C:\Users\naynish\Desktop\Tutorial\MyFirstApp\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+C:\Users\naynish\Desktop\Tutorial\MyFirstApp\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+C:\Users\naynish\Desktop\Tutorial\MyFirstApp\MyClassLibrary\obj\Debug\MyClassLibrary.pdb

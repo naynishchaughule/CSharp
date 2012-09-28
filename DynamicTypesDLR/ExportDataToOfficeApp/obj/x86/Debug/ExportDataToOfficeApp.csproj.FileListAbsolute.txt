@@ -1,0 +1,7 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DynamicTypesDLR\ExportDataToOfficeApp\bin\Debug\ExportDataToOfficeApp.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DynamicTypesDLR\ExportDataToOfficeApp\bin\Debug\ExportDataToOfficeApp.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DynamicTypesDLR\ExportDataToOfficeApp\obj\x86\Debug\ExportDataToOfficeApp.Form1.resources
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DynamicTypesDLR\ExportDataToOfficeApp\obj\x86\Debug\ExportDataToOfficeApp.Properties.Resources.resources
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DynamicTypesDLR\ExportDataToOfficeApp\obj\x86\Debug\ExportDataToOfficeApp.csproj.GenerateResource.Cache
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DynamicTypesDLR\ExportDataToOfficeApp\obj\x86\Debug\ExportDataToOfficeApp.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\DynamicTypesDLR\ExportDataToOfficeApp\obj\x86\Debug\ExportDataToOfficeApp.pdb

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ArrayOfEmployee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Employee>
+    <Salary>65000</Salary>
+    <Id>65985</Id>
+    <Fname>Tripti Panjabi</Fname>
+  </Employee>
+  <Employee>
+    <Salary>45200</Salary>
+    <Id>45783</Id>
+    <Fname>Purab Bhatt</Fname>
+  </Employee>
+</ArrayOfEmployee>

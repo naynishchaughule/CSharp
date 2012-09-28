@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CachedFactorial\CachedFactorial\bin\Debug\CachedFactorial.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CachedFactorial\CachedFactorial\bin\Debug\CachedFactorial.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CachedFactorial\CachedFactorial\obj\x86\Debug\CachedFactorial.exe
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CachedFactorial\CachedFactorial\obj\x86\Debug\CachedFactorial.pdb

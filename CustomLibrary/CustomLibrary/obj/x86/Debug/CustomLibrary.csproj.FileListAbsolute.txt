@@ -1,0 +1,4 @@
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CustomLibrary\CustomLibrary\bin\Debug\CustomLibrary.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CustomLibrary\CustomLibrary\bin\Debug\CustomLibrary.pdb
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CustomLibrary\CustomLibrary\obj\x86\Debug\CustomLibrary.dll
+G:\naynish\Pro C# 2010 and the .NET 4 Platform\CustomLibrary\CustomLibrary\obj\x86\Debug\CustomLibrary.pdb

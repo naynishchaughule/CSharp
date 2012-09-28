@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWinForm", "MyWinForm\MyWinForm.csproj", "{3C97B605-F33E-4258-AFF6-49E194C5043C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHooks", "AppHooks\AppHooks.csproj", "{4817BE34-43BB-4149-8A69-DB6E2FC96AE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlugIn", "PlugIn\PlugIn.csproj", "{B0BFF4C1-2292-46DF-B338-74BF7189810D}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://naynish-pc:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MyWinForm\\MyWinForm.csproj
+		SccProjectName1 = MyWinForm
+		SccLocalPath1 = MyWinForm
+		SccProjectUniqueName2 = AppHooks\\AppHooks.csproj
+		SccProjectName2 = AppHooks
+		SccLocalPath2 = AppHooks
+		SccProjectUniqueName3 = PlugIn\\PlugIn.csproj
+		SccProjectName3 = PlugIn
+		SccLocalPath3 = PlugIn
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C97B605-F33E-4258-AFF6-49E194C5043C}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{3C97B605-F33E-4258-AFF6-49E194C5043C}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{3C97B605-F33E-4258-AFF6-49E194C5043C}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{3C97B605-F33E-4258-AFF6-49E194C5043C}.Debug|x86.ActiveCfg = Debug|x86
+		{3C97B605-F33E-4258-AFF6-49E194C5043C}.Debug|x86.Build.0 = Debug|x86
+		{3C97B605-F33E-4258-AFF6-49E194C5043C}.Release|Any CPU.ActiveCfg = Release|x86
+		{3C97B605-F33E-4258-AFF6-49E194C5043C}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{3C97B605-F33E-4258-AFF6-49E194C5043C}.Release|Mixed Platforms.Build.0 = Release|x86
+		{3C97B605-F33E-4258-AFF6-49E194C5043C}.Release|x86.ActiveCfg = Release|x86
+		{3C97B605-F33E-4258-AFF6-49E194C5043C}.Release|x86.Build.0 = Release|x86
+		{4817BE34-43BB-4149-8A69-DB6E2FC96AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4817BE34-43BB-4149-8A69-DB6E2FC96AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4817BE34-43BB-4149-8A69-DB6E2FC96AE8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4817BE34-43BB-4149-8A69-DB6E2FC96AE8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4817BE34-43BB-4149-8A69-DB6E2FC96AE8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4817BE34-43BB-4149-8A69-DB6E2FC96AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4817BE34-43BB-4149-8A69-DB6E2FC96AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4817BE34-43BB-4149-8A69-DB6E2FC96AE8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4817BE34-43BB-4149-8A69-DB6E2FC96AE8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4817BE34-43BB-4149-8A69-DB6E2FC96AE8}.Release|x86.ActiveCfg = Release|Any CPU
+		{B0BFF4C1-2292-46DF-B338-74BF7189810D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0BFF4C1-2292-46DF-B338-74BF7189810D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0BFF4C1-2292-46DF-B338-74BF7189810D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B0BFF4C1-2292-46DF-B338-74BF7189810D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B0BFF4C1-2292-46DF-B338-74BF7189810D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B0BFF4C1-2292-46DF-B338-74BF7189810D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0BFF4C1-2292-46DF-B338-74BF7189810D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0BFF4C1-2292-46DF-B338-74BF7189810D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B0BFF4C1-2292-46DF-B338-74BF7189810D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B0BFF4C1-2292-46DF-B338-74BF7189810D}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
